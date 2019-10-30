@@ -51,6 +51,31 @@
             width = "100%";
         }
         
+        .unityCard .img{
+            height: "100%";
+            width: "100%";
+        }
+        
+        .unityCard{
+            width: 300px;
+        }
+        
+        .unitySection{
+            padding-bottom: 25px
+        }
+        
+        .unityCard {
+            text-align-last: right;
+        }
+        
+        .right{
+            float: right;
+        }
+        
+        .left{
+            float:left;
+        }
+        
     </style>
       
   </head>
@@ -90,17 +115,18 @@
     <div class="container">
       <div class="img"></div>
       <h1 class="display-4">James's Project Page</h1>
-      <p class="lead">Additional projects coming soon...</p>
+      <p class="lead"></p>
       <hr class="my-4">
       <p>Click on the links and play some games</p>
     </div>
     </div>
-      
-    <div class="container" id="javascriptGameSection">
+    
+    <div class="container">
+        <h1>My JavaScript Projects</h1>  
+    </div>    
         
-            <h1>Which javascript game would you like to play?</h1>
-            <p class="lead text-muted">Go on, click one...</p>
-
+    <div class="container" id="javascriptGameSection">
+        <p class="lead text-muted">Go on, click one...</p>
     </div>
       
     <div class="container">
@@ -153,10 +179,80 @@
     
     <hr class="my-4">
     
-    <div class="container">
-        <h1>My Unity projects</h1>
-        <p> Coming soon ...</p>   
+    <div class="container unitySection">
+        <h1>My Unity projects</h1>  
     </div>
+        
+    <div class="container">
+    
+        <div class="row">
+            <div class="card-deck">
+                
+                <div class="card unityCard">
+                  <img class="card-img-top" src="Images/BlockBreaker.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="text-muted left">Block breaker</h5>
+                  </div>
+                </div>
+                
+                <div class="card unityCard">
+                  <img class="card-img-top" src="Images/NumberWizard.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="text-muted left">Number Wizard</h5>
+                  </div>
+                </div>
+                
+                <div class="card unityCard">
+                  <img class="card-img-top" src="Images/LaserDefender.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="text-muted left">Laser Defender</h5>
+                  </div>
+                </div>
+                
+                <div class="card unityCard">
+                  <img class="card-img-top" src="Images/BowlMaster.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="text-muted left">Bowling Game</h5>
+                  </div>
+                </div>
+ 
+            </div>
+            
+        </div>
+        
+        <div style="padding-bottom: 25px"></div>
+        
+        <div class="row">
+            <div class="card-deck">
+                
+                <div class="card unityCard">
+                  <img class="card-img-top" src="Images/GlitchGarden.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="text-muted left">Glitch Garden</h5>
+                  </div>
+                </div>
+                
+                <div class="card unityCard">
+                  <img class="card-img-top" src="Images/PuzzleBall.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="text-muted left">Puzzle Ball</h5>
+                  </div>
+                </div>
+                
+                <div class="card unityCard">
+                  <img class="card-img-top" src="Images/ZombieRunner.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="text-muted left">Zombie Runner</h5>
+                  </div>
+                </div>
+ 
+            </div>
+            
+        </div>
+        
+    </div>
+     
+        
     
       
     <div class="jumbotron jumbotrom-billboard centered" id="footer">
